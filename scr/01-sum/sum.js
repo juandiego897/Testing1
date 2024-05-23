@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const { factorial } = require('./sum');
 
 describe('pruebas de función factorial', () => {
@@ -16,3 +17,14 @@ describe('pruebas de función factorial', () => {
         expect(factorial(-5)).toBeNaN();
     });
 });
+=======
+function sum(a, b){
+   if (a === undefined || b === undefined) {
+      return "hubo error con los argumentos";
+    }
+    return a + b;
+}
+  
+  module.exports = sum;
+
+>>>>>>> e8f96d1b4a3cd7dd56a3bddbf6f02949fb6ac3c4

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const { isPrime } = require('./sub');
 
 describe('isPrime function tests', () => {
@@ -21,3 +22,8 @@ describe('isPrime function tests', () => {
         expect(isPrime(1)).toBe(false);
     });
 });
+=======
+test("should return true", () => {
+    expect(true).toBe(true);
+  });
+>>>>>>> e8f96d1b4a3cd7dd56a3bddbf6f02949fb6ac3c4

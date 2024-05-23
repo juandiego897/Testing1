@@ -1,12 +1,27 @@
 {
+<<<<<<< HEAD
   "name": "actividad1",
   "version": "1.0.0",
   "description": "",
+=======
+  "name": "testing",
+  "version": "1.0.0",
+>>>>>>> e8f96d1b4a3cd7dd56a3bddbf6f02949fb6ac3c4
   "main": "index.js",
   "scripts": {
     "start": "node App.js",
     "test": "jest"
   },
+<<<<<<< HEAD
   "author": "",
   "license": "ISC"
+=======
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+>>>>>>> e8f96d1b4a3cd7dd56a3bddbf6f02949fb6ac3c4
 }
